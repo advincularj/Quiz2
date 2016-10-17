@@ -11,7 +11,7 @@ using System.IO;
 
 public partial class Admin_Products_Details : System.Web.UI.Page
 {
-    SqlConnection con = new SqlConnection(advincula.GetCon());
+    SqlConnection con = new SqlConnection(advincula.GetConnection());
 
     protected void Page_Load(object sender, EventArgs e)
     {
